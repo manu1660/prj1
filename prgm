@@ -1,0 +1,17 @@
+<html>
+<head><title>Even No</title>
+</head>
+<body>
+<script>
+var a,b;
+a=parseInt(prompt("Enter First No: "));
+b=parseInt(prompt("Enter Second No: "));
+for(i=a;i<=b;i++)
+{
+if(i%2==0)
+document.write(i);
+document.write("<br>");
+}
+</script>
+</body>
+</html>
